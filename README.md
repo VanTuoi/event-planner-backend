@@ -17,7 +17,6 @@ This is the backend part of the **Event Planner** mobile application. It is buil
 - User authentication (login, register).
 - Event management (create, update, delete, fetch events).
 - Real-time updates via **ChangeStreams** (for MongoDB).
-- CORS enabled to allow cross-origin requests from the frontend.
 
 ---
 
@@ -29,10 +28,10 @@ This is the backend part of the **Event Planner** mobile application. It is buil
 - **Framework:** Express.js
 - **Database:** MongoDB
 
-### **System Interface Design**
+### **Frontend**
 
-- Reference UI/UX design available on Figma for frontend developers:  
-  [Event Planner Mobile App Design](https://www.figma.com/community/file/1015611559875216373/event-planner-mobile-app)
+- This is a simple component to supplement a more complete frontend.  
+  [Frontend details at here](https://github.com/VanTuoi/event-planner.git)
 
 ---
 
@@ -45,14 +44,14 @@ Follow these steps to set up the backend project in development mode:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/VanTuoi/event-planner.git
+git clone https://github.com/VanTuoi/event-planner-backend.git
 ```
 
 ### **2. Clone the Repository**
 Navigate to the backend directory and install the required dependencies:
 
 ```bash
-cd event-planner/backend
+cd event-planner-backend
 npm install
 ```
 
